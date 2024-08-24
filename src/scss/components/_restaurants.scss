@@ -1,0 +1,110 @@
+// retaurant-container design
+.restaurant-container {
+    width: 100%;
+    display: grid;
+    // grid-template-columns: repeat(auto-fit, 280px);
+    grid-template-columns: repeat(auto-fill, 280px);
+    // gap: 20px;
+    place-content: space-evenly;
+
+    margin-top: 0px;
+
+}
+
+// retaurant-card desing
+
+.restaurant-card {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    // outline: 2px solid rgb(240 240 240 / 0%);
+
+    .__card-img {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        border-radius: inherit;
+    }
+
+    .__name {
+        margin: 15px auto 8px;
+    }
+
+    .__cuisines {
+        font-size: 0.8em;
+        opacity: 90%;
+    }
+
+    .__details {
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 18px;
+        margin-bottom: 15px;
+        color: #848484;
+
+        .__dot {
+            font-size: 0.2rem;
+        }
+
+        .__ratings {
+            background-color: rgb(79, 209, 79);
+            padding: 3px 6px;
+            color: rgb(255, 252, 252);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+
+            i {
+                font-size: 0.6rem;
+            }
+        }
+
+        .__offer {
+            text-transform: uppercase;
+        }
+    }
+
+    hr {
+        height: 1px;
+        border: none;
+        background-color: rgba(70, 70, 70, 0.3);
+
+
+
+    }
+
+    .__discounts {
+        margin-top: 15px;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: rgb(153, 52, 2);
+
+        div {
+            display: flex;
+            align-items: center;
+            width: 100%;
+
+            span {
+                margin-top: 4px;
+                margin-right: 10px;
+            }
+
+        }
+
+
+    }
+
+}
+
+.restaurant-card:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
