@@ -2,6 +2,7 @@ import RestaurantCard from "./RestaurantCard";
 import SkeletonCard from "./SkeletonCard";
 import { SWIGGY_API } from "../../utils/constants";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Filter = () => {
 	const [resList, setResList] = useState([]);
@@ -20,6 +21,7 @@ const Filter = () => {
 				?.restaurants;
 		setResConstList(restaurantList);
 		setResList(restaurantList);
+		console.log("useEffect----> runned");
 	}
 
 	return (
@@ -99,12 +101,6 @@ const Filter = () => {
 							>
 								Fastest Delivery
 							</button>
-							<button type="button" className="static-btn">
-								Non-veg
-							</button>
-							<button type="button" className="static-btn">
-								Desi
-							</button>
 						</div>
 						<div className="custom-btn">
 							<button type="button" className="filter-btn">
@@ -122,7 +118,9 @@ const Filter = () => {
 								.fill(1)
 								.map((e) => <SkeletonCard key={crypto.randomUUID()} />)
 						: resList.map((data) => (
-								<RestaurantCard key={data?.info?.id} {...data?.info} />
+								<Link to={`/restaurant/${data?.info?.id}`} key={data?.info?.id}>
+									<RestaurantCard {...data?.info} />
+								</Link>
 							))}
 				</div>
 			</div>
