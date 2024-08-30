@@ -112,7 +112,16 @@ function RestaurantMenu() {
 						onClick={(e) => {
 							setAccordionList(JSON.parse(JSON.stringify(accordionStaticList)));
 
-							for (btn of e.target.parentElement.children) {
+							// for (btn of e.target.parentElement.children) {
+							// 	if (btn.textContent.trim() === e.target.textContent.trim()) {
+							// 		btn.style.backgroundColor = "#64b5f6";
+							// 		btn.style.color = "#fff";
+							// 	} else {
+							// 		btn.style.backgroundColor = "#fff";
+							// 		btn.style.color = "#000";
+							// 	}
+							// }
+							Array.from(e.target.parentElement.children).map((btn) => {
 								if (btn.textContent.trim() === e.target.textContent.trim()) {
 									btn.style.backgroundColor = "#64b5f6";
 									btn.style.color = "#fff";
@@ -120,7 +129,7 @@ function RestaurantMenu() {
 									btn.style.backgroundColor = "#fff";
 									btn.style.color = "#000";
 								}
-							}
+							});
 						}}
 					>
 						ALL
@@ -132,7 +141,17 @@ function RestaurantMenu() {
 								JSON.stringify(accordionStaticList),
 							);
 
-							for (btn of e.target.parentElement.children) {
+							// for (btn of e.target.parentElement.children) {
+							// 	if (btn.textContent.trim() === e.target.textContent.trim()) {
+							// 		btn.style.backgroundColor = "#59cd90";
+							// 		btn.style.color = "#fff";
+							// 	} else {
+							// 		btn.style.backgroundColor = "#fff";
+							// 		btn.style.color = "#000";
+							// 	}
+							// }
+
+							Array.from(e.target.parentElement.children).map((btn) => {
 								if (btn.textContent.trim() === e.target.textContent.trim()) {
 									btn.style.backgroundColor = "#59cd90";
 									btn.style.color = "#fff";
@@ -140,7 +159,7 @@ function RestaurantMenu() {
 									btn.style.backgroundColor = "#fff";
 									btn.style.color = "#000";
 								}
-							}
+							});
 
 							// biome-ignore lint/complexity/noForEach: <explanation>
 							nextAccordionList.forEach((e) => {
@@ -160,7 +179,17 @@ function RestaurantMenu() {
 								JSON.stringify(accordionStaticList),
 							);
 
-							for (btn of e.target.parentElement.children) {
+							// for (btn of e.target.parentElement.children) {
+							// 	if (btn.textContent.trim() === e.target.textContent.trim()) {
+							// 		btn.style.backgroundColor = "#f65434";
+							// 		btn.style.color = "#fff";
+							// 	} else {
+							// 		btn.style.backgroundColor = "#fff";
+							// 		btn.style.color = "#000";
+							// 	}
+							// }
+
+							Array.from(e.target.parentElement.children).map((btn) => {
 								if (btn.textContent.trim() === e.target.textContent.trim()) {
 									btn.style.backgroundColor = "#f65434";
 									btn.style.color = "#fff";
@@ -168,7 +197,8 @@ function RestaurantMenu() {
 									btn.style.backgroundColor = "#fff";
 									btn.style.color = "#000";
 								}
-							}
+							});
+
 							// biome-ignore lint/complexity/noForEach: <explanation>
 							nextAccordionList.forEach((e) => {
 								e.card.card.itemCards = e.card.card.itemCards.filter((f) => {
