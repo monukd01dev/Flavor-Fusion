@@ -112,7 +112,7 @@ const Filter = () => {
 					</div>
 				</div>
 				<div className="restaurant-container">
-					{resList.length === 0
+					{resList?.length === 0
 						? new Array(16)
 								.fill(1)
 								.map((e) => <SkeletonCard key={crypto.randomUUID()} />)
