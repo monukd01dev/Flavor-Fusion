@@ -1,27 +1,11 @@
 import RestaurantCard from "./RestaurantCard";
 import SkeletonCard from "./SkeletonCard";
-import { SWIGGY_API } from "../../utils/constants";
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import useRestaurantList from "../../utils/useRestaurantList";
 
 const Filter = () => {
-	const [resList, setResList] = useState([]);
-	const [resConstList, setResConstList] = useState([]);
-	const [searchKey, setSearchKey] = useState("");
-
-	useEffect(() => {
-		getRestaurants();
-	}, []);
-
-	async function getRestaurants() {
-		const response = await fetch(SWIGGY_API);
-		const data = await response.json();
-		const restaurantList =
-			data?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
-				?.restaurants;
-		setResConstList(restaurantList);
-		setResList(restaurantList);
-	}
+	const { resList, setResList, resConstList, searchKey, setSearchKey } =
+		useRestaurantList();
 
 	return (
 		<>
@@ -112,7 +96,7 @@ const Filter = () => {
 					</div>
 				</div>
 				<div className="restaurant-container">
-					{resList?.length === 0
+					{resList.length === 0
 						? new Array(16)
 								.fill(1)
 								.map((e) => <SkeletonCard key={crypto.randomUUID()} />)
