@@ -1,6 +1,3 @@
-Here’s a detailed **README** file that you can use for your GitHub repo for the **Flavor Fusion** project. This README includes sections for project setup, features, and technical details, along with helpful labels:
-
----
 
 # 🍽️ Flavor Fusion - A React Food Ordering App
 
@@ -103,6 +100,3 @@ This app is deployed using **Vercel**. You can easily deploy your own version by
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-This README provides an in-depth explanation of the project, the steps required to set it up, and necessary precautions like using the CORS Bypasser. Additionally, it includes the labels you wanted to highlight the project's core technologies. You can further tweak it to add any missing details, like the live Vercel link if you haven't deployed the app yet.
