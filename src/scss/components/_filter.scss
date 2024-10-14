@@ -1,7 +1,11 @@
 .filter {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 3;
     margin-top: 50px;
     margin-bottom: 20px;
-    // outline: 1px solid black;
+
     border-bottom: 2px solid rgb(87 87 87 / 45%);
     display: flex;
     justify-content: space-between;
@@ -18,31 +22,34 @@
         // width: 50%;
         justify-content: inherit;
         gap: 60px;
+        position: relative;
 
         .static-filters {
             display: inherit;
             gap: 20px;
 
             .static-btn {
-                font-size: 1.3rem;
-                padding: 6px 20px;
+                background: #1f1f1f;
+                color: white;
+                padding: 10px 25px;
+                outline: none;
                 border: none;
-                color: #495057;
-                background-color: #fff;
-                cursor: pointer;
-                transition: all 0.1s ease;
+                border-radius: 25px;
+                font-size: 1rem;
 
             }
 
             .static-btn:hover {
 
-                color: #212529;
+                background: #2f2f2f;
 
             }
+
         }
 
 
         .custom-btn {
+            display: none;
 
             .filter-btn {
                 display: flex;
@@ -66,7 +73,88 @@
             .filter-btn:hover {
                 background-color: #ff7900;
             }
+
+            @media (max-width: 750px) {
+                display: block;
+            }
+
         }
+
+    }
+
+    @media (max-width: 750px) {
+        font-size: medium;
+
+
+        .filter-items {
+            z-index: 2;
+
+
+            .static-filters {
+                display: none;
+                background-color: #ff8500;
+                /* Average of the two colors */
+                border-radius: 10px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 2px rgba(0, 0, 0, 0.1);
+                transition: all 0.2s ease-in-out;
+                overflow: hidden;
+                border-radius: 10px;
+
+                position: absolute;
+
+                flex-direction: column;
+                background-color: #ff9100;
+                ;
+                top: 40px;
+                left: 0;
+                padding: 0;
+                gap: 0;
+
+                .static-btn {
+                    background-color: inherit;
+                    padding: 0;
+                    font-size: 14px;
+                    color: white;
+                    width: 100%;
+                    padding: 10px;
+                    text-align: left;
+                    border-radius: 0px;
+
+
+
+                }
+
+                :last-child {
+                    border-bottom-right-radius: inherit;
+                    border-bottom-left-radius: inherit;
+                }
+
+                :first-child {
+                    border-top-right-radius: inherit;
+                    border-top-left-radius: inherit;
+                }
+
+
+
+                .static-btn:hover {
+
+                    background-color: #ff7900;
+                    color: white;
+                    box-shadow: 0 4px 8px rgba(56, 56, 56, 0.2), 0 0 4px rgba(69, 69, 69, 0.1);
+                    transform: translateY(-2px);
+
+                }
+
+
+
+
+            }
+
+            .show-filter {
+                display: inline-block;
+            }
+        }
+
 
     }
 }

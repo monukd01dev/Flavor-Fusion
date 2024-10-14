@@ -13,12 +13,14 @@ html {
 body {
     font-family: f.$font;
     // font-family: f.$font-glory;
+    overflow-x: hidden;
 
     .app {
         max-width: 1500px;
         width: 95%;
         height: fit-content;
         margin: auto;
+
         // background-color: #fff;
     }
 }

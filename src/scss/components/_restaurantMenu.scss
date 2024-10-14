@@ -164,7 +164,7 @@
         position: sticky;
         // top:115px;
         top: 0;
-        z-index: 10;
+        z-index: 1;
         background-color: #fff;
 
         .menu-head {
@@ -272,7 +272,8 @@
         position: fixed;
         bottom: -80px;
         left: 50%;
-        width: 850px;
+        max-width: 850px;
+        width: 95%;
         transform: translateX(-50%);
         height: 80px;
         display: flex;

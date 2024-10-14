@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { RESTAURANT_MENU_API } from "./constants";
+import useResFromID from "./useResFromID";
 
 export default function useRestaurantMenu(resId) {
 	const [resDetails, setResDetails] = useState(null);
@@ -11,7 +12,9 @@ export default function useRestaurantMenu(resId) {
 	useEffect(() => {
 		const fetchMenu = async () => {
 			try {
-				const response = await fetch(RESTAURANT_MENU_API + resId);
+				// const response = await fetch(RESTAURANT_MENU_API + resId);
+				const response = await useResFromID(resId);
+
 				if (!response.ok) {
 					throw new Error("Failed to Fetch Restaurant Menu");
 				}

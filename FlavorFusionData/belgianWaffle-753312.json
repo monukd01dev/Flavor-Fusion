@@ -1,0 +1,2384 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "Kd-data": "jaiho"
+            },
+            {
+                "Kd-data": "jaiho"
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "753312",
+                            "name": "The Belgian Waffle Co.",
+                            "city": "Delhi",
+                            "slugs": {
+                                "restaurant": "the-belgian-waffle-co-regal-building-east-karol-bagh",
+                                "city": "delhi"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "5116a385bac0548e06c33c08350fbf11",
+                            "locality": "REGAL BUILDING EAST",
+                            "areaName": "CONNAUGHT CIRCUS",
+                            "costForTwo": "20000",
+                            "costForTwoMessage": "₹200 for two",
+                            "cuisines": [
+                                "Waffle",
+                                "Desserts"
+                            ],
+                            "avgRating": 4.7,
+                            "veg": true,
+                            "feeDetails": {
+                                "restaurantId": "753312",
+                                "fees": [
+                                    {}
+                                ]
+                            },
+                            "parentId": "2233",
+                            "avgRatingString": "4.7",
+                            "totalRatingsString": "540 ratings",
+                            "sla": {
+                                "restaurantId": "753312",
+                                "deliveryTime": 33,
+                                "minDeliveryTime": 30,
+                                "maxDeliveryTime": 35,
+                                "lastMileTravel": 4.6,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "zoneId": 175,
+                                "slaString": "30-35 MINS",
+                                "lastMileTravelString": "4.5 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2024-10-15 02:00:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "20% off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "20% off | Use SWIGGYIT",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "20% off up to ₹50 | Use code SWIGGYIT",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off upto ₹125 |  Use BOBDCFEST Above ₹399",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "the-belgian-waffle-co-regal-building-east-karol-bagh",
+                            "multiOutlet": true,
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "SHOP NO 21, GF OF REGAL BUILDING EAST, CONNAUGHT CIRCUS, CONNAUGHT PLACE, NEW DELHI, CHANKYA PURI, New Delhi, Delhi, 110009"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Waffle,Desserts"
+                                }
+                            ],
+                            "logo": "Brand logo/TBWCo",
+                            "totalRatings": 540,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "20% off",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "20% off | Use SWIGGYIT",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "20% off up to ₹50 | Use code SWIGGYIT",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "20% off upto ₹125 |  Use BOBDCFEST Above ₹399",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "nudgeBanners": [
+                                {
+                                    "minValue": 125,
+                                    "maxValue": 179,
+                                    "priority": 1,
+                                    "couponCode": "SWIGGYIT",
+                                    "discountInfo": {
+                                        "discountType": "Percentage",
+                                        "value": 20
+                                    },
+                                    "lockedMessage": "Add items worth ₹<amount> to save upto ₹50 | Code SWIGGYIT",
+                                    "unlockedMessage": "SWIGGYIT Coupon Unlocked! Use it to save upto ₹50",
+                                    "logoCtx": {}
+                                }
+                            ],
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/753312"
+                            },
+                            "ratingSlab": "RATING_SLAB_5",
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {}
+                            },
+                            "hasBestsellerItems": true,
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "28.630970946355898,77.216886",
+                            "backgroundImageOverlayInfo": {},
+                            "featuredSectionInfo": {}
+                        },
+                        "analytics": {}
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+                        "sectionId": "POP_UP_CROUTON_MENU"
+                    }
+                }
+            },
+            {
+                "Kd-data": "jaiho"
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Recommended",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "152177104",
+                                                            "name": "Biscoff Bomb",
+                                                            "category": "The Gourmet Waffles",
+                                                            "description": "Indulge in a Biscoff explosion! Our crispy waff-wich is a masterpiece layered with Lotus Biscoff spread, crowned with delectable Lotus Biscoff ice cream, sprinkled with crumbs, and adorned with a drizzle of melted white chocolate and extra Biscoff spread. It's a Biscoff lover's dream!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/3/0ef44719-205a-47bd-87cd-18f8e480cf07_edee06b9-57a6-468c-8b9c-10b9c1df995e.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 27000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "20% OFF",
+                                                                    "subTitle": "USE SWIGGYIT",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "152177101",
+                                                            "name": "Death By Chocolate",
+                                                            "category": "The Gourmet Waffles",
+                                                            "description": "Dive into our signature chocolate waff-wich, layered with milk chocolate spread topped with hot chocolate fudge, choco chips, Oreos, Kit Kat, and rich creamy chocolate ice cream. It's a breath-stealing blend of pure indulgence!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/3/16493251-4f25-4634-8fb9-7ba36629a4bc_be736f43-b269-4bb4-9f41-ab1c2662e8d3.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 27000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "20% OFF",
+                                                                    "subTitle": "USE SWIGGYIT",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "152177102",
+                                                            "name": "Mint Choco Chip",
+                                                            "category": "The Gourmet Waffles",
+                                                            "description": "A lovestory like never before. Our signature black velvet waff-wich, layered with hot chocolate fudge, topped with milk & white chocolate spread,  choco chips & the unqiue  \"Mint choco chip\" ice cream- A lovestory that transcends the ordinary.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/3/f14121d3-e7af-48cb-9a21-c6312cb038fb_3763f8bb-3697-4c63-aed0-f0f72e26036a.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 27000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "20% OFF",
+                                                                    "subTitle": "USE SWIGGYIT",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "152177103",
+                                                            "name": "Berry-Nana Caramel Swirl",
+                                                            "category": "The Gourmet Waffles",
+                                                            "description": "A wonderland of flavours. Our classic crispy waff-wich layered with milk chocolate topped with strawberry banana ice cream with a swirl of caramel sauce, salted caramel popcorn, roasted almond & bananas. Pure indulgence in every bite!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/3/a210e739-0b42-4313-9f0a-fb63411b6196_2a7a02d7-9d1d-4bff-b15c-40d3c48fed50.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 27000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "20% OFF",
+                                                                    "subTitle": "USE SWIGGYIT",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "152177105",
+                                                            "name": "KitKat Affair",
+                                                            "category": "The Gourmet Waffles",
+                                                            "description": "Make the most of this Affair.  Our crispy classic waff-wich is a masterpiece layered with melted Belgian white chocolate topped with creamy vanilla ice cream, KitKat crumbs & drizzled with melted Belgian white and milk chocolate. For KitKat lovers!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/3/3671695d-81d5-46a1-b64a-45066d8f611b_5fba9e9a-8324-4d15-ba34-274ecb548b5a.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 27000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "20% OFF",
+                                                                    "subTitle": "USE SWIGGYIT",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "152177106",
+                                                            "name": "Nutella Overload",
+                                                            "category": "The Gourmet Waffles",
+                                                            "description": "Unleash the mighty flavour with our crispy classic waff-wich layered in Nutella, crowned with vanilla ice cream, and topped with melted Belgian white chocolate, Nutella spread, roasted almonds, and a playful wafer roll. It's a taste revolution!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/3/85611d78-aa68-4f5a-a552-84bb59d5ec55_c99b3683-33eb-4cb2-aa28-f13daf6e5290.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 27000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "20% OFF",
+                                                                    "subTitle": "USE SWIGGYIT",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "152177107",
+                                                            "name": "Kiki Monster",
+                                                            "category": "The Gourmet Waffles",
+                                                            "description": "Savor pure decadence with our Black Velvet waff-wich, layered with Kiki & Cream filling, topped with Cookie & Cream ice cream, hot chocolate fudge, melted Belgian white chocolate, and Oreo crumbs. Dessert perfection in every bite!",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/3/cacc881d-184f-4cdb-9e74-758571d35df4_fa2f1201-3926-46d9-82c5-54a0b4a6490b.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 27000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "20% OFF",
+                                                                    "subTitle": "USE SWIGGYIT",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "152177108",
+                                                            "name": "Almond Fudge Brownie",
+                                                            "category": "The Gourmet Waffles",
+                                                            "description": "Epitome of indulgence in a single bite:  A waff-wich And A Brownie. Layered with the goodness of Nutella & topped with hot chocolate fudge, roasted almond, wafer roll & creamy vanilla ice cream- a symphony of flavors that unites the best of both worlds.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/10/3/c70a157a-e6d9-4eff-ba12-690a075b8558_613b5907-3973-4be8-9075-7a0f271d3372.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 27000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "offerTags": [
+                                                                {
+                                                                    "title": "20% OFF",
+                                                                    "subTitle": "USE SWIGGYIT",
+                                                                    "textColor": "#DB6742",
+                                                                    "backgroundColor": "#FAE8E3"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "122917994",
+                                                            "name": "Mini Treats",
+                                                            "category": "Offers & Value Deals",
+                                                            "description": "Treat your tribe! Save Rs. 67 flat & enjoy Mini Waffle pack of 4 (assorted) + Mini Waffle pack of 4 (chocolate).",
+                                                            "imageId": "c09a7c9a2104893edc7c800a1f38d858",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 59944,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "105563510",
+                                                                    "groupName": "Mini Waffle 1",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739560",
+                                                                            "name": "Naked Nutella Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563511",
+                                                                    "groupName": "Mini Waffle 2",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739561",
+                                                                            "name": "Belgian Chocolate Milk Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563512",
+                                                                    "groupName": "Mini Waffle 3",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739564",
+                                                                            "name": "Dark & White Fantasy Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563513",
+                                                                    "groupName": "Mini Waffle 4",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739579",
+                                                                            "name": "Chocolate Overload Dark Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563514",
+                                                                    "groupName": "Mini Waffle 5",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739580",
+                                                                            "name": "Almond Cocoa Butter Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563515",
+                                                                    "groupName": "Mini Waffle 6",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739581",
+                                                                            "name": "Red Velvet Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563516",
+                                                                    "groupName": "Mini Waffle 7",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739582",
+                                                                            "name": "Berry Red Velvet Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563517",
+                                                                    "groupName": "Mini Waffle 8",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739583",
+                                                                            "name": "Belgian Chocolate Milk Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563518",
+                                                                    "groupName": "Box 1",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739584",
+                                                                            "name": "Mini Waffle Box",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563519",
+                                                                    "groupName": "Box 2",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739585",
+                                                                            "name": "Mini Waffle Box",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "defaultPrice": 59944,
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.9",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "122917993",
+                                                            "name": "Best Of The Best",
+                                                            "category": "Offers & Value Deals",
+                                                            "description": "Share our besties with your besties! Choose any 5 best-selling Waffle from below list for a flat price! (Naked Nutella or Triple Chocolate or Belgian Chocolate Milk or Belgian Chocolate Dark or KitKat Waffle or Red Velvet).",
+                                                            "imageId": "fc529e8c5a543ceb729d7786d1b01858",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 66000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "105563509",
+                                                                    "groupName": "Waffwich",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739575",
+                                                                            "name": "Naked Nutella Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "116022575",
+                                                                            "name": "Belgian Chocolate Milk Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739572",
+                                                                            "name": "Belgian Chocolate Dark Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739576",
+                                                                            "name": "KitKat Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739577",
+                                                                            "name": "Triple Chocolate Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739578",
+                                                                            "name": "Red Velvet Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 5,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 5
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "defaultPrice": 66000,
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "122917989",
+                                                            "name": "Happiness in mini version + 1 FREE Delight",
+                                                            "category": "Offers & Value Deals",
+                                                            "description": "Buy Chocolate Mini Waffle Combo pack of 6 and select 1 FREE waffle or pancake from our top picks.",
+                                                            "imageId": "68e17b6856045111d70d4e8d2b105ed2",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 51119,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "105563501",
+                                                                    "groupName": "Mini Waffle Combo",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739560",
+                                                                            "name": "Naked Nutella Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739561",
+                                                                            "name": "Belgian Chocolate Milk Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739562",
+                                                                            "name": "Belgian Chocolate Dark Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739563",
+                                                                            "name": "Chocolate Overload Milk Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739564",
+                                                                            "name": "Dark & White Fantasy Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739565",
+                                                                            "name": "KitKat Mini Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739566",
+                                                                            "name": "Mini Waffle Box (6 Mini Waffle)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 7,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 7
+                                                                },
+                                                                {
+                                                                    "groupId": "105563502",
+                                                                    "groupName": "Free Delight",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "116022575",
+                                                                            "name": "Belgian Chocolate Milk Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739568",
+                                                                            "name": "Maple Butter Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "defaultPrice": 51119,
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.2",
+                                                                    "ratingCount": "11 ratings",
+                                                                    "ratingCountV2": "11"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "122917990",
+                                                            "name": "Keep Cake & Celebrate + 1 FREE Delight",
+                                                            "category": "Offers & Value Deals",
+                                                            "description": "Choose any one double layer waffle cake- Death by chocolate Waffle Cake (Double Layer)/ Red velvet waffle Cake (Double Layer)/ Kiki and Oreo Cream waffle cake (Double Layer) and select 1 FREE waffle or pancake from our top picks.",
+                                                            "imageId": "31ce167dc68121669c2f4a7f7ca469c0",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 58052,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "105563503",
+                                                                    "groupName": "Waffle Cake",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739569",
+                                                                            "name": "Death by Chocolate Waffle Cake (Double Layer)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739570",
+                                                                            "name": "Kiki & Oreo Waffle Cake (Double Layer)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739571",
+                                                                            "name": "Berry Red Velvet Waffle Cake (Double Layer)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563504",
+                                                                    "groupName": "Free Delight",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "116022575",
+                                                                            "name": "Belgian Chocolate Milk Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739572",
+                                                                            "name": "Belgian Chocolate Dark Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "defaultPrice": 58052,
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "122917992",
+                                                            "name": "The Belgian Club + 1 Free Delight (Dark)",
+                                                            "category": "Offers & Value Deals",
+                                                            "description": "Buy 3 Belgian Chocolate waffle (Dark) and get a free delight (Free Delight: kiki and oreo cream pancake or triple chocolate pancake or belgian chocolate waffle or maple butter waffle)",
+                                                            "imageId": "84d1b25b2937208843debf5e27449c8d",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 46713,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "105563507",
+                                                                    "groupName": "Waffle",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739574",
+                                                                            "name": "Belgian Chocolate Dark Waffle x 3",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563508",
+                                                                    "groupName": "Free Delight",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "116022575",
+                                                                            "name": "Belgian Chocolate Milk Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739568",
+                                                                            "name": "Maple Butter Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "defaultPrice": 46713,
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "122917998",
+                                                            "name": "Treats For Two",
+                                                            "category": "Offers & Value Deals",
+                                                            "description": "1 for you, 1 for me & 1 for us. Save Rs. 52 flat & enjoy Belgian Chocolate Milk Waffle + Red Velvet Waffle + Signature Cold Coffee.",
+                                                            "imageId": "8fb65da221d2a8ca558109ebfb896ddb",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 40910,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "144682524",
+                                                                    "groupName": "Waffle 1",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "116022575",
+                                                                            "name": "Belgian Chocolate Milk Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563527",
+                                                                    "groupName": "Waffle 2",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739578",
+                                                                            "name": "Red Velvet Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563528",
+                                                                    "groupName": "Shake",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "108345033",
+                                                                            "name": "Cold Coffee - Signature",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "defaultPrice": 40910,
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "143815809",
+                                                            "name": "Ultimate Waffle Meal @ 399",
+                                                            "category": "Offers & Value Deals",
+                                                            "description": "Save big on our ultimate waffle meal. Select any waff-wich + potato pops + a beverage of your choice at just Rs 399",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/23/5e70e932-ae01-4864-a4b0-1b8285981730_07371a48-06a0-4456-b2c4-33070fddd25b.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 39900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "161290777",
+                                                                    "groupName": "Waffles",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739575",
+                                                                            "name": "Naked Nutella Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739576",
+                                                                            "name": "KitKat Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739568",
+                                                                            "name": "Maple Butter Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739578",
+                                                                            "name": "Red Velvet Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739577",
+                                                                            "name": "Triple Chocolate Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739572",
+                                                                            "name": "Belgian Chocolate Dark Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659640",
+                                                                            "name": "Kiki & Oreo Cream Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659662",
+                                                                            "name": "Almond Brownie Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659620",
+                                                                            "name": "Dark & White Fantasy Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659631",
+                                                                            "name": "Berry Red Velvet Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659664",
+                                                                            "name": "Mango Cheesecake* Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659630",
+                                                                            "name": "Almond Cocoa Butter Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659655",
+                                                                            "name": "Honey Butter Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659610",
+                                                                            "name": "Lotus Biscoff Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659613",
+                                                                            "name": "Strawberry Cheesecake* Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659635",
+                                                                            "name": "Chocolate Overload Dark Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659612",
+                                                                            "name": "Butterscotch Crunch Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659645",
+                                                                            "name": "Biscoff Cheesecake* Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659615",
+                                                                            "name": "Nutella Cheesecake* Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659614",
+                                                                            "name": "Blueberry Cheesecake* Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659636",
+                                                                            "name": "Chocolate Overload Milk Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659639",
+                                                                            "name": "Coffee Mocha Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "116022575",
+                                                                            "name": "Belgian Chocolate Milk Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659607",
+                                                                            "name": "Snickers Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "161290778",
+                                                                    "groupName": "Beverages",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "119659660",
+                                                                            "name": "Cold Coffee - Roasted Hazelnut",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659650",
+                                                                            "name": "Hot Chocolate - Roasted Hazelnut",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659661",
+                                                                            "name": "Oreo Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659652",
+                                                                            "name": "Flat White",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659663",
+                                                                            "name": "Cafe Latte",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659644",
+                                                                            "name": "Cafe Mocha",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659621",
+                                                                            "name": "Cafe Americano",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659643",
+                                                                            "name": "Blueberry White Choco Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659665",
+                                                                            "name": "KitKat Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659624",
+                                                                            "name": "Peach - Iced Tea",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659623",
+                                                                            "name": "Hot Chocolate - Classic",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659634",
+                                                                            "name": "Cafe Latte - Roasted Hazelnut",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659656",
+                                                                            "name": "Cold Coffee - Mocha Fudge",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659659",
+                                                                            "name": "Affogato",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659625",
+                                                                            "name": "Lemon - Iced Tea",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659658",
+                                                                            "name": "Espresso",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659616",
+                                                                            "name": "Nutella Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659649",
+                                                                            "name": "Cafe Latte - Caramel",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "108345033",
+                                                                            "name": "Cold Coffee - Signature",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "108345032",
+                                                                            "name": "Belgian Choco Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659646",
+                                                                            "name": "Cappuccino",
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "161290779",
+                                                                    "groupName": "Group-3",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "123953955",
+                                                                            "name": "Potato Pops - Peri Peri Seasoning",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "123953954",
+                                                                            "name": "Potato Pops - Cheese Seasoning",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "defaultPrice": 39900,
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "122917995",
+                                                            "name": "The WaffShake Duo",
+                                                            "category": "Offers & Value Deals",
+                                                            "description": "Triple Chocolate Waffle + Belgian Chocolate Shake.",
+                                                            "imageId": "18c3d1aa70f3f6e4fcb4a0a8ed99774b",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 34667,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "105563520",
+                                                                    "groupName": "Waffle",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739577",
+                                                                            "name": "Triple Chocolate Waffle",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563521",
+                                                                    "groupName": "Shake",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "108345032",
+                                                                            "name": "Belgian Choco Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "defaultPrice": 34667,
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "143815811",
+                                                            "name": "Buy Any 2 Beverages @299",
+                                                            "category": "Offers & Value Deals",
+                                                            "description": "Save upto 40%! Enjoy any two of our freshly blended beverages for just Rs 299.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/20/52b956a1-85bf-4161-bc73-1dcca2d5925d_84672733-1392-4540-a59b-7e1d07e91886.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 29900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "161290782",
+                                                                    "groupName": "Beverages 1",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "119659660",
+                                                                            "name": "Cold Coffee - Roasted Hazelnut",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659650",
+                                                                            "name": "Hot Chocolate - Roasted Hazelnut",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659661",
+                                                                            "name": "Oreo Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659652",
+                                                                            "name": "Flat White",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659663",
+                                                                            "name": "Cafe Latte",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659644",
+                                                                            "name": "Cafe Mocha",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659621",
+                                                                            "name": "Cafe Americano",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659643",
+                                                                            "name": "Blueberry White Choco Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659665",
+                                                                            "name": "KitKat Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659624",
+                                                                            "name": "Peach - Iced Tea",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659623",
+                                                                            "name": "Hot Chocolate - Classic",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659634",
+                                                                            "name": "Cafe Latte - Roasted Hazelnut",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659656",
+                                                                            "name": "Cold Coffee - Mocha Fudge",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659659",
+                                                                            "name": "Affogato",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659625",
+                                                                            "name": "Lemon - Iced Tea",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659658",
+                                                                            "name": "Espresso",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659616",
+                                                                            "name": "Nutella Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659649",
+                                                                            "name": "Cafe Latte - Caramel",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "108345033",
+                                                                            "name": "Cold Coffee - Signature",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "108345032",
+                                                                            "name": "Belgian Choco Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659646",
+                                                                            "name": "Cappuccino",
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "161290783",
+                                                                    "groupName": "Beverages 2",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "119659651",
+                                                                            "name": "Cafe Mocha.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659642",
+                                                                            "name": "Espresso.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659653",
+                                                                            "name": "KitKat Shake.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659641",
+                                                                            "name": "Lemon - Iced Tea.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659611",
+                                                                            "name": "Hot Chocolate - Classic.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659622",
+                                                                            "name": "Cafe Latte - Roasted Hazelnut.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659633",
+                                                                            "name": "Blueberry White Choco Shake.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659632",
+                                                                            "name": "Cafe Latte.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659654",
+                                                                            "name": "Cafe Americano.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659657",
+                                                                            "name": "Peach - Iced Tea.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659626",
+                                                                            "name": "Flat White.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659637",
+                                                                            "name": "Cold Coffee - Mocha Fudge.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659648",
+                                                                            "name": "Hot Chocolate - Roasted Hazelnut.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659647",
+                                                                            "name": "Affogato.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659617",
+                                                                            "name": "Nutella Shake.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659628",
+                                                                            "name": "Cafe Latte - Caramel.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659638",
+                                                                            "name": "Cold Coffee - Roasted Hazelnut.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659619",
+                                                                            "name": "Cold Coffee - Signature.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659618",
+                                                                            "name": "Cappuccino.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659629",
+                                                                            "name": "Oreo Shake.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659609",
+                                                                            "name": "Belgian Choco Shake.",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "defaultPrice": 29900,
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "143815810",
+                                                            "name": "Any Beverage + Belgian Chocolate Waffle @ flat Rs 249 (Milk)",
+                                                            "category": "Offers & Value Deals",
+                                                            "description": "Save upto 25% with our Belgian Special combo. Enjoy the most loved Belgian Chocolate Waff-wich (Milk) with any beverage of your choice.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/6/20/4fe4bf45-da0b-43a5-89c7-c0837a9f9992_d7b7368f-b78a-42be-b03e-9f6d621ea4c3.png",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 24900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "161290780",
+                                                                    "groupName": "Beverage",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "119659660",
+                                                                            "name": "Cold Coffee - Roasted Hazelnut",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659650",
+                                                                            "name": "Hot Chocolate - Roasted Hazelnut",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659661",
+                                                                            "name": "Oreo Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659652",
+                                                                            "name": "Flat White",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659663",
+                                                                            "name": "Cafe Latte",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659644",
+                                                                            "name": "Cafe Mocha",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659621",
+                                                                            "name": "Cafe Americano",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659643",
+                                                                            "name": "Blueberry White Choco Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659665",
+                                                                            "name": "KitKat Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659624",
+                                                                            "name": "Peach - Iced Tea",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659623",
+                                                                            "name": "Hot Chocolate - Classic",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659634",
+                                                                            "name": "Cafe Latte - Roasted Hazelnut",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659656",
+                                                                            "name": "Cold Coffee - Mocha Fudge",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659659",
+                                                                            "name": "Affogato",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659625",
+                                                                            "name": "Lemon - Iced Tea",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659658",
+                                                                            "name": "Espresso",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659616",
+                                                                            "name": "Nutella Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659649",
+                                                                            "name": "Cafe Latte - Caramel",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "108345033",
+                                                                            "name": "Cold Coffee - Signature",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "108345032",
+                                                                            "name": "Belgian Choco Shake",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "119659646",
+                                                                            "name": "Cappuccino",
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "161290781",
+                                                                    "groupName": "Waffle",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "116022575",
+                                                                            "name": "Belgian Chocolate Milk Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "defaultPrice": 24900,
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "122917991",
+                                                            "name": "The Belgian Club + 1 Free Delight (Milk)",
+                                                            "category": "Offers & Value Deals",
+                                                            "description": "Buy Belgian chocolate [Milk] waffle and select 1 FREE waffle or pancake from our top picks.",
+                                                            "imageId": "c8d290dc8bc090cc9e4e70a5f5f039fd",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 46713,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "105563505",
+                                                                    "groupName": "Waffle",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739573",
+                                                                            "name": "Belgian Chocolate Milk Waffle x 3",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563506",
+                                                                    "groupName": "Free Delight",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "116022575",
+                                                                            "name": "Belgian Chocolate Milk Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739568",
+                                                                            "name": "Maple Butter Waffle (Regular Batter)",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "defaultPrice": 46713,
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "122917996",
+                                                            "name": "Make At Home @ Rs.349",
+                                                            "category": "Offers & Value Deals",
+                                                            "description": "Save Rs. 78. Make our delicious waffles or pancakes in the comfort \nof your home with our Original Pancake & Waffle Mix !",
+                                                            "imageId": "7d176da88367df0bbdcc1f8829231d29",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 34900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "addons": [
+                                                                {
+                                                                    "groupId": "105563522",
+                                                                    "groupName": "Premix",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739587",
+                                                                            "name": "Original Pancake & Waffle Mix",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                },
+                                                                {
+                                                                    "groupId": "105563523",
+                                                                    "groupName": "Spreads",
+                                                                    "choices": [
+                                                                        {
+                                                                            "id": "97739588",
+                                                                            "name": "Milk Choco Spread",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739589",
+                                                                            "name": "Dark Choco Spread",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        },
+                                                                        {
+                                                                            "id": "97739590",
+                                                                            "name": "Cookie & Cream Spread",
+                                                                            "inStock": 1,
+                                                                            "isVeg": 1,
+                                                                            "isEnabled": 1
+                                                                        }
+                                                                    ],
+                                                                    "maxAddons": 1,
+                                                                    "maxFreeAddons": -1,
+                                                                    "minAddons": 1
+                                                                }
+                                                            ],
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "defaultPrice": 34900,
+                                                            "ribbon": {},
+                                                            "showImage": true,
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "type": "CATEGORY_TYPE_RECOMMENDED"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 13323009000236"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "The Belgian Waffle Co.",
+                                            "area": "CONNAUGHT CIRCUS",
+                                            "completeAddress": "SHOP NO 21, GF OF REGAL BUILDING EAST, CONNAUGHT CIRCUS, CONNAUGHT PLACE, NEW DELHI, CHANKYA PURI, New Delhi, Delhi, 110009"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    }
+}

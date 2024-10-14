@@ -8,6 +8,7 @@ const RestaurantCard = (props) => {
 		cuisines,
 		avgRating,
 		sla: { deliveryTime },
+		aggregatedDiscountInfoV3: discount,
 	} = props;
 
 	const styleForImg = {
@@ -15,8 +16,10 @@ const RestaurantCard = (props) => {
 	};
 
 	return (
-		<div className="restaurant-card">
-			<div className="__card-img" style={styleForImg} />
+		<div className="restaurant-card" data-testid="restaurantCard">
+			<div className="__card-img">
+				<div className="actual-img" style={styleForImg} />
+			</div>
 			<h3 className="__name">{name}</h3>
 			<p className="__cuisines">{cuisines.join(", ")}</p>
 			<div className="__details">
@@ -35,12 +38,22 @@ const RestaurantCard = (props) => {
 			</div>
 			<hr />
 			<div className="__discounts">
-				<div>
-					<span>
-						<i className="fi fi-sr-badge-percent" />
-					</span>
-					FREE DELIVERY
-				</div>
+				{(discount?.header && discount.header !== "ITEMS" && (
+					<div>
+						<span>
+							<i className="fi fi-sr-badge-percent" />
+						</span>
+						{discount?.header}
+					</div>
+				)) ||
+					(discount?.subHeader && (
+						<div>
+							<span>
+								<i className="fi fi-sr-badge-percent" />
+							</span>
+							{discount?.subHeader}
+						</div>
+					))}
 			</div>
 		</div>
 	);

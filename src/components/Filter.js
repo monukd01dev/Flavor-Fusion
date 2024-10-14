@@ -1,40 +1,23 @@
 import RestaurantCard, { promoteRestroCard } from "./RestaurantCard";
 import SkeletonCard from "./SkeletonCard";
+import SearchRestaurants from "./SearchRestaurants";
 import { Link } from "react-router-dom";
 import useRestaurantList from "../../utils/useRestaurantList";
+import { useState } from "react";
 
 const Filter = () => {
 	const { resList, setResList, resConstList, searchKey, setSearchKey } =
 		useRestaurantList();
 
+	const [showFilters, setShowFilters] = useState(false);
+
 	const PromotedRestroCard = promoteRestroCard(RestaurantCard);
 	return (
 		<>
 			<div className="search-con">
-				<div className="search">
-					<input
-						type="text"
-						placeholder="What are you craving today?"
-						value={searchKey}
-						onChange={(e) => {
-							setSearchKey(e.target.value.trim().toLocaleLowerCase());
-						}}
-					/>
-
-					<button
-						type="button"
-						className="search-btn"
-						onClick={() => {
-							const nextResList = resConstList.filter(({ info }) =>
-								info.name.toLowerCase().includes(searchKey),
-							);
-
-							setResList(nextResList);
-						}}
-					>
-						<i className="fa-solid fa-magnifying-glass" />
-					</button>
-				</div>
+				<SearchRestaurants
+					{...{ setResList, resConstList, searchKey, setSearchKey }}
+				/>
 			</div>
 
 			<div className="con">
@@ -43,12 +26,13 @@ const Filter = () => {
 						<h2>{resList.length} Restaurants</h2>
 					</div>
 					<div className="filter-items">
-						<div className="static-filters">
+						<div className={`static-filters ${showFilters && "show-filter"}`}>
 							<button
 								type="button"
 								className="static-btn"
 								onClick={() => {
 									setResList(resConstList);
+									setShowFilters(!showFilters);
 								}}
 							>
 								All
@@ -62,6 +46,7 @@ const Filter = () => {
 											.filter(({ info }) => info.avgRating > 4)
 											.sort((a, b) => b.info.avgRating - a.info.avgRating),
 									);
+									setShowFilters(!showFilters);
 								}}
 							>
 								Rating
@@ -78,13 +63,18 @@ const Filter = () => {
 													a.info.sla.deliveryTime - b.info.sla.deliveryTime,
 											),
 									);
+									setShowFilters(!showFilters);
 								}}
 							>
 								Fastest Delivery
 							</button>
 						</div>
 						<div className="custom-btn">
-							<button type="button" className="filter-btn">
+							<button
+								type="button"
+								className="filter-btn"
+								onClick={() => setShowFilters(!showFilters)}
+							>
 								Filter{" "}
 								<span>
 									<i className="fi fi-sr-settings-sliders" />

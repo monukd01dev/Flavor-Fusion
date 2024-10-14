@@ -1,6 +1,6 @@
 import { SWIGGY_API } from "./constants";
 import { useEffect, useState } from "react";
-
+import useFetchRes from "./useFetchRes";
 const useRestaurantList = () => {
 	const [resList, setResList] = useState([]);
 	const [resConstList, setResConstList] = useState([]);
@@ -9,7 +9,8 @@ const useRestaurantList = () => {
 	useEffect(() => {
 		async function getRestaurants() {
 			try {
-				const response = await fetch(SWIGGY_API);
+				// const response = await fetch(SWIGGY_API);
+				const response = await useFetchRes();
 
 				if (!response.ok) {
 					throw new Error("Failed to Fetch RestaurantList");

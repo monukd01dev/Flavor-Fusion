@@ -8,6 +8,7 @@
     margin: auto;
     height: 115px;
     gap: 50px;
+
     // for sticky
     // position: sticky;
     // top: 0;
@@ -19,6 +20,11 @@
     }
 
     .nav-items {
+        @media (max-width: 750px) {
+            display: none;
+        }
+
+
         display: flex;
         gap: 50px;
 
@@ -45,8 +51,101 @@
                 top: -9px;
                 left: 13px;
 
+                @media (max-width: 750px) {
+                    outline: 2px solid white;
+                    background-color: black;
+                }
+
             }
         }
     }
+
+    .bar-menu {
+        display: none;
+    }
+
+    @media (max-width: 750px) {
+        img {
+            width: 120px;
+        }
+
+        .nav-items {
+            background-color: black;
+            z-index: 4;
+
+            a {
+                color: white;
+            }
+        }
+
+        .open-menu {
+            display: flex;
+            position: fixed;
+            outline: 1px solid black;
+            right: 0;
+            top: 0;
+            height: 100%;
+            flex-direction: column;
+            width: 200px;
+            padding-top: 100px;
+            align-items: center;
+
+            opacity: 1;
+            transition: all 0.3s ease;
+        }
+
+        .close-menu {
+            display: flex;
+            position: fixed;
+            outline: 1px solid black;
+            right: 0;
+            top: 0;
+            height: 100%;
+            flex-direction: column;
+            width: 200px;
+            padding-top: 100px;
+            align-items: center;
+            transform: translateX(102%);
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .bar-menu {
+            display: block;
+            position: absolute;
+            top: 28;
+            right: 28;
+            font-size: 2rem;
+            z-index: 5;
+
+            .spinny {
+                animation: spin 1s ease alternate;
+            }
+
+            @keyframes spin {
+                0% {
+                    transform: rotate(0deg);
+                }
+
+                100% {
+
+                    transform: rotate(180deg);
+                }
+            }
+
+            .my-white {
+                color: white;
+            }
+
+            .fixed-it {
+                position: fixed;
+                top: 28;
+                right: 28;
+            }
+        }
+    }
+
+
+
 
 }

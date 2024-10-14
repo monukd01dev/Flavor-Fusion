@@ -1,7 +1,13 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { DISH_SLAB_IMG_URL } from "../../utils/constants";
-import { addItem, removeItem } from "../../utils/cartSlice";
+import { addItem } from "../../utils/cartSlice";
+import ItemQuantitySelector from "./ItemQuantitySelector";
+import defaultImg from "./../assets/default_img.png";
 const DishSlab = ({ dishSlabData }) => {
+	const cartItems = useSelector((store) => store.cart.items);
+	const showAdder = cartItems.find(
+		(item) => item.id === dishSlabData.id,
+	)?.quantity;
 	const cartDispatcher = useDispatch();
 
 	const {
@@ -18,7 +24,7 @@ const DishSlab = ({ dishSlabData }) => {
 	} = dishSlabData;
 
 	function handleCartAdd(dishSlabData) {
-		cartDispatcher(addItem({...dishSlabData,quantity: 1}));
+		cartDispatcher(addItem({ ...dishSlabData, quantity: 1 }));
 	}
 
 	return (
@@ -28,9 +34,17 @@ const DishSlab = ({ dishSlabData }) => {
 					<div className="content">
 						<div className="dish-cat">
 							{itemAttribute?.vegClassifier === "NONVEG" ? (
-								<i className="fa-solid fa-square-caret-up __non-veg" />
+								<div className="veg-classifier-con">
+									<div className="outer-square red">
+										<div className="inner-circle red" />
+									</div>
+								</div>
 							) : (
-								<i className="fa-solid fa-square-caret-up __veg" />
+								<div className="veg-classifier-con">
+									<div className="outer-square">
+										<div className="inner-circle" />
+									</div>
+								</div>
 							)}
 							{ribbon && <span className="ribbon">{ribbon?.text}</span>}
 						</div>
@@ -82,18 +96,23 @@ const DishSlab = ({ dishSlabData }) => {
 				</div>
 				<div className="right">
 					<div className="img-con">
-						{imageId ? (
-							<img src={`${DISH_SLAB_IMG_URL}${imageId}`} alt="" />
-						) : (
-							<div className="empty-saver" />
-						)}
-						<button
-							type="button"
-							className="img-con-btn"
-							onClick={() => handleCartAdd(dishSlabData)}
-						>
-							add
-						</button>
+						<img
+							src={imageId ? `${DISH_SLAB_IMG_URL}${imageId}` : defaultImg}
+							alt=""
+						/>
+
+						<div className="img-con-btn">
+							{showAdder ? (
+								<ItemQuantitySelector itemID={dishSlabData.id} />
+							) : (
+								<button
+									type="button"
+									onClick={() => handleCartAdd(dishSlabData)}
+								>
+									add
+								</button>
+							)}
+						</div>
 					</div>
 				</div>
 			</div>

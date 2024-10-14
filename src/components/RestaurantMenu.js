@@ -169,18 +169,20 @@ function RestaurantMenu() {
 					</div>
 				)}
 			</div>
-			{accordionList.map((e, index) => {
-				return e?.card?.card?.itemCards.length !== 0 ? (
-					<AccordionMenu
-						key={crypto.randomUUID()}
-						accordionData={e?.card?.card}
-						showAccordion={whichAccordion === index}
-						setWhichAccordion={() => {
-							setWhichAccordion(whichAccordion === index ? null : index);
-						}}
-					/>
-				) : null;
-			})}
+			<div className="all-accordians">
+				{accordionList.map((e, index) => {
+					return e?.card?.card?.itemCards.length !== 0 ? (
+						<AccordionMenu
+							key={e?.card?.card.title}
+							accordionData={e?.card?.card}
+							showAccordion={whichAccordion === index}
+							setWhichAccordion={() => {
+								setWhichAccordion(whichAccordion === index ? null : index);
+							}}
+						/>
+					) : null;
+				})}
+			</div>
 			{/* biome-ignore lint/a11y/useKeyWithClickEvents: <explanation> */}
 			<div
 				className={`item-added-notify ${cartItems.length !== 0 && "popup-show"}`}
