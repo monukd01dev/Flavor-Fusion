@@ -45,4 +45,8 @@
             border-radius: 5px;
         }
     }
+
+    @media (max-width: 750px) {
+        margin-bottom: 100px;
+    }
 }
