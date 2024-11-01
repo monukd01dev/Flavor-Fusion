@@ -9,7 +9,7 @@
 
 ## 🚀 Demo
 
-You can check out the live version of the app here: [Flavor Fusion on Vercel]([https://your-vercel-link.com](https://flavor-fusion-beta.vercel.app/))  
+You can check out the live version of the app here: [Flavor Fusion on Vercel](https://flavor-fusion-beta.vercel.app/)  
 
 
 ## 💡 Features
