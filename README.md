@@ -7,16 +7,10 @@
 
 **Flavor Fusion** is a frontend web application built using **React.js**. It allows users to browse and filter restaurants, view menus, and manage their cart for a seamless food-ordering experience. This project was built while following the *Namaste React* course, where I implemented React's core concepts, advanced optimizations, state management with **Redux Toolkit**, and comprehensive testing with **Jest**.
 
-## ⚠️ Important Notice
-
-Since **Swiggy** doesn’t provide a public API, I’ve used their internal data links. To successfully run this app, you'll need to bypass CORS using the **"Allow CORS: Access-Control-Allow-Origin"** extension on Chrome. Without this, the app will only display a loading (Simmer UI) screen without restaurant data.
-
-🔗 [Download CORS Bypasser Extension](https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf)
-
 ## 🚀 Demo
 
-You can check out the live version of the app here: [Flavor Fusion on Vercel](https://your-vercel-link.com)  
-*(Note: Make sure to use the CORS Bypasser extension to load data)*
+You can check out the live version of the app here: [Flavor Fusion on Vercel]([https://your-vercel-link.com](https://flavor-fusion-beta.vercel.app/))  
+
 
 ## 💡 Features
 
